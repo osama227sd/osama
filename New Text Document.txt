@@ -1,0 +1,88 @@
+  classes  =>
+
+ row ÚÔÇה ÇÎבל ÇבÍÇÌו ÑםÓÈזהÓÝ בÇÒד ÊÊÍØ Ýל ÇבÑז Ïו 
+ 
+ container  דÔ ÈםÇÎÏ ÇבÇבÚÑÖ ÈÊÇÚÇבÔÇÔו ‗בו
+  
+ container-floiud   ÈםÇÎÏ ÚÑÖ ÇבÔÇÔו ‗בוÇ 
+
+  text-center ÇבהÕ Ýל ÇבדהÊÕÝ
+
+
+  list-unstyled   ÈםÚדב ÑםÓÊ בבבÓÊו 
+
+
+ text-danger  ÚÔה םÎבםל Çבבזה Òל ÇבÈזÊזה ÈÏב דÇ ÇÚדב Ýל ÇבÓל ÇÓ ÇÓ בזהו ז‗Ïו וז ÈםÛםÑב בזהו 
+  
+ img-circle  ÈםÚדב ÈזÑÏÑ ÑםÏםזÓ 
+
+ center-block  ÈםÚדב ÇבÍÇÌו Ýל ÇבהÕ
+
+ btn-lg  ÎÇÕ ÈÊ‗ÈםÑ ÇבÒÑÇÑ זÇÖÇÝÉ דדםÒÇÊ ÇÎÑל
+
+ input-lg   ÎÇÕ ÈÊ‗ÈםÑ ÇבÍÞב  זÇÖÇÝו דדםÒÇÊ ÇÎÑל
+
+
+     <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active"  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" role="progressbar" style="width:80%"> Html / Css</div>
+      </div>
+
+progress   Ô‗ב ÇבÈÈÑזÌÑםÓ ÇבÎÇÕ ÈÇבÈזÊÓÊÑÇÈ  דה ÛםÑו דÔ וםÙÑ םÚהל ÏÇ Çב‗זהÊםהÑ בÇÒד ם‗זה Ýםו ÍÇÌו Ìזו ול Çבבל ÈÊÊÍÑ‗ זוםÇ ÇבÈÑזÌÑםÓ ÈÇÑ זÇבבל ÈÞÏÑ ÇÛםÑ דה ÚÇÑÖוÇ זבהוÇ זÇבÍÇÌÇÊ Ïל
+
+progress-bar  ‗בÇÓ ÈÊÇÚ ÈזÊÓÊÑÇÈ ÏÇ ÚÔÇה Ìזו ÇבÈÑזÌÑםÓ ÇבÇÓÇÓל Çבבל ובÚÈ Ýםו 
+
+progress-bar-success  Çבבזה 
+
+role="prgressbar"  /ודו ÚÔÇה ‗ב ÍÇÌו Ýל ÇבÈזÊÓÊÑÇÈ בםוÇ  Ñזב דÚםה
+
+progress-bar-striped ÈםÎבל ÇבÔ‗ב Ýל ÍÇÌÇÊ דÇםבו ‗Ïו
+
+active ÈםÎבל Ýל ÍÑ‗ו Ýל ÇבÈזÑÌÑםÓ 
+
+aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"    Ïזב ÈÞÇ דÝוזדםה
+
+             <form class="form">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                              <input class="form-control input-lg" type="text" placeholder="User Name">
+                            </div>
+                            
+                            <div class="form-group">
+                              <input class="form-control input-lg" type="text" placeholder="Email">
+                            </div>
+                            
+                            <div class="form-group">
+                              <input class="form-control input-lg" type="text" placeholder="Cell Phone">
+                            </div>
+                        </div>
+
+
+
+
+
+                
+              <div class="media">
+                  <a class="pull-left" href="#"> <img src="web-design.jpg" class="media-object" alt="media #1"/></a>
+                  <div class="media-body">
+                    <h4 class="media-heading"> Web Design</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+                  </div>
+              </div>
+                
+                         <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+
+
+
+   <div class="col-lg-4 our-work">
+              <h3> Our Aweosome Work </h3>
+                <div><img src="w2.jpg" class="img-thumbnail"/></div>
+                <div><img src="w3.jpg" class="img-thumbnail"/></div>
+                <div><img src="w4.jpg" class="img-thumbnail"/></div>
+                <div><img src="w5.jpg" class="img-thumbnail"/></div>
+              
+            </div>
+
+
+
+
+      h1
