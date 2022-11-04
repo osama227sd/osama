@@ -1,0 +1,86 @@
+@media(max-width:767px)
+{
+  .navbar-nav > li > a 
+    {
+     padding-top: 13px; 
+     padding-bottom: 13px;
+   }
+    .subscribe .form-control
+    {
+        margin:13px auto;
+    }
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse 
+    {
+        max-height:none;
+    }
+    .dropdown-menu .divider
+    {
+        height:3px
+    }
+    .testimonials-section .carousel-indicators li
+    {
+        width:37px;
+        height:47px;
+    }
+
+    
+}
+
+
+@media (min-width:150px) and (max-width:260px)
+{
+    .navbar-brand
+    {
+        padding-top:18px;
+        font-size:18px
+    }
+}
+
+
+
+@media (min-width:130px) and (max-width:440px)
+{
+    .about h1
+    {
+    
+        font-size:18px
+    }
+    .clients li img 
+    {
+      height:110px
+    }
+}
+
+
+@media(min-width:500px) and (max-width:770px)
+{
+    footer .our-work div img
+    {
+        width:92%;
+        height:150;
+    }
+}
+@media(min-width:768px) and (max-width:991px)  
+{
+footer .our-work div
+    {
+        width:24%
+    }
+}
+
+
+
+@media(min-width:992px) and (max-width:1199px)    
+{
+footer .our-work div
+    {
+        width:24%
+    }
+}
+
+
+@media(min-width:1200px)
+{
+
+}

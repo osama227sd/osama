@@ -1,0 +1,436 @@
+body{padding-top: 71px;}
+/************* start overriding bootstrab *************/
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a, 
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand{
+    color: #bbb;
+}
+/* start main navbar */
+.navbar{min-height: 70px}
+/* end main navbar */
+
+/* strat brand name */
+.navbar-brand{
+  font-size:30px;
+  line-height:40px;
+}
+/* end brand name */
+
+/* start dropdown link */
+.navbar-nav > li > .dropdown-menu{background-color:#333;min-width:200px}
+.navbar-right .dropdown-menu{left:0;right:auto}
+.navbar-nav > li > a {padding-top: 25px;padding-bottom: 25px;font-size:18px}
+.dropdown-menu > li > a{
+    color: #fff;
+    padding:6px 20px;
+    -webkit-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    -o-transition: padding .5s ease;
+    -ms-transition: padding .5s ease;
+    transition: padding .5s ease
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus{color:#fff;padding-left:25px;}
+/* end dropdown link */
+.dropdown-menu .divider{background-color:#871818}
+/* start navbar toogle  اللى هى الزرار اللى بندوس عليه فى الموبايل */
+.navbar-toggle{margin-top: 20px;}
+/* end navbar toogle*/
+
+/* start carosoul  */
+.carousel-caption{bottom: 94px;padding: 0 50px;}
+.one{color: rgb(101, 107, 168);}
+.two{color: rgb(34, 88, 168);}
+.three{color: rgb(101, 117, 117);}
+.four{color: rgb(98, 104, 173);}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{width:100%}
+/* end caruosal */
+
+/* indicators */
+.carousel-indicators li{width: 15px;height:15px;border:1px solid rgb(172, 149, 149);}
+.carousel-indicators .active{width: 17px;height:17px;}
+.carousel-indicators{bottom:-8px}
+/* indicators */
+/************* end overrifing bootstrab **************/
+
+/* start color box */
+.color-box {
+    position:fixed;
+    top:100px;
+    left:2px;
+    z-index:99999
+}
+.color-box .gear-option{margin-left:10px;padding:7px;cursor: pointer}
+.color-box .option-box{
+    background-color:#333;
+    color:#fff;
+    padding:7px;
+    width:138px;
+    display:none
+}
+.color-box .option-box ul li{display:inline-block;width:20px;height:20px;}
+/* End color box */
+
+/* start section */
+.about{padding: 40px 0;}
+.about  .h1 {font-weight:bold}                                           
+.about p{margin-top:10px;color:#888;font-size:25px;}
+/* End section */
+
+/* start features */
+.features{padding:30px 0;background-color:#ddd;}
+.features .h1{margin-bottom:30px}
+.features .feat {margin-bottom:20px;}
+.features .feat div.glyphicon{
+    font-size:25px;
+    margin-bottom:10px;
+    color:#555;  /* عشان ده يعتبر خط */
+}
+.features .feat p{line-height:20px}
+/* end featurea*/
+
+/* start testimonials */
+ .testimonials-section{padding: 50px 0;}
+.testimonials-section .h1{margin-bottom:20px;font-weight: bold;}            
+.testimonials-section .lead{line-height:30px;margin-bottom:10px}
+.testimonials carousel-inner{min-height:50px;}
+.carousel-inner span{font-size:20px;font-weight:bold}
+ .testimonials-section .carousel-indicators{
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top:20px
+}
+.testimonials-section .carousel-indicators li{
+    text-indent:0;
+    width:80px;
+    height:80px;
+    opacity:.4;
+   background-color:none;
+    border: 3px solid #fff;
+    border-radius: 50%;
+   overflow: hidden;
+   margin:5px;
+  -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease
+}
+.testimonials-section .carousel-indicators li.active{opacity: 1;width:80px;height:80px;}
+.testimonials-section .carousel-indicators li img{width:100%;}
+/* End testimonials */
+
+/* start price table */
+.price-table{
+    padding:40px 0;
+    background-color:#EEE;
+    overflow: hidden  /* دى عشان لما اعمل اسكرول عند استخدام مكتبة الواو جى اى الشكل ميجيش من فوق خالص يجيى من اول السيكشن */
+}
+.price-table .h1{margin-bottom:30px}
+.price-table .price-box {
+    background-color:#fff;
+    padding:10px;
+    border: 2px solid #ddd;
+    margin-bottom:10px
+}
+.price-table .price-box h2{margin:5px 0 15px ;}
+.price-table .price-box:hover p{
+    -webkit-transform: scale(1.1 , 1.1) rotate(360deg);
+    -moz-transform: scale(1.1 , 1.1) rotate(360deg);
+    -o-transform: scale(1.1 , 1.1) rotate(360deg);
+    transform: scale(1.1 , 1.1) rotate(360deg);
+     border:2px solid #DFDFDF
+}
+.price-table .price-box p{
+    font-weight:bold;
+    font-size:35px;
+    width:100px;
+    height:100px;
+    background-color:#F3F3F3;
+    border-radius:50%;
+    line-height:100px;
+    -webkit-transition-duration:.7s;
+    -moz-transition-duration:.7s;
+    -o-transition-duration:.7s;
+    transition-duration:.7s;
+}
+.price-table .price-box ul{line-height: 2.2;font-size:18px}
+.price-table .price-box a{margin-bottom:5px;}
+/* end price table  */
+
+/* start our-team */
+.about-team{
+  background:url('../background-2846221_960_720.jpg') center center no-repeat fixed; /* حلوه فيكسيد دى */
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  min-height:600px;
+}
+.about-team .team{
+    color:#fff;
+    background:rgba(2,2,2,0.6);
+    min-height:600px;
+    padding-top:40px;
+    padding-bottom:40px
+}
+.about-team .team .h1{margin-bottom:50px;}                
+.about-team .person{margin-bottom:40px;}
+.about-team img{
+    opacity: .9;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    margin-bottom:40px
+}
+.about-team img:hover{
+  -webkit-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  transform: scale(1.1);
+  -webkit-border-radius:10%;
+  -moz-border-radius:10%;
+  -o-border-radius:10%;
+   border-radius:10%;
+  opacity: 1
+}
+/* start our-team */
+
+/* start subscribe */
+.subscribe {padding-top:50px;padding-bottom:50px;background-color:#EEE}
+.subscribe .h1{color:#888;letter-spacing: 2px;margin-bottom:20px}                      
+.subscribe p{margin-bottom:30px}
+.subscribe .form-control{border-radius:0;margin:-4;width:300px}
+.subscribe .form-inline button{border-radius:0}
+/* End subscribe -->
+
+/* start statistics */
+.statistics{background:url('../hawaiin-sunset-1368289.jpg') center center no-repeat fixed ;min-height:400px;}
+.statistics .data {
+    color:#B6B5B5;
+    background-color:rgba(2,2,2,0.7);
+    min-height:400px;
+    padding-top:30px; 
+    padding-bottom:70px
+}
+.statistics .stats {
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    margin-bottom:30px
+}
+.statistics .stats:hover{color:#fff}
+.statistics p{font-size:60px;font-weight:bold;margin-bottom:0}
+.statistics span{font-size:18px}
+/* End statistics */
+
+/* start our skills */
+.our-skills{padding-top:40px;padding-bottom:70px;}
+.our-skills h1{margin-bottom:60px;}
+.our-skills h3{font-weight:bold;margin-top:0}
+.our-skills .progress{height:36px;}
+.our-skills .progress .progress-bar {
+    line-height: 36px;
+    text-align: left;
+    text-indent:10px;
+    font-weight:bold;
+    font-size:14px
+}
+/* End our skills */
+
+/* start contact us */
+.contact-us{
+    background:url('../computer-2982270_960_720.jpg') center center no-repeat fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+      min-height:600px;
+}
+.contact-us .contact{
+    background-color:rgba(2,2,2,.75);
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#ddd;
+     min-height: 600px
+}
+.contact-us p{margin-bottom:40px}
+.contact-us textarea{height:108px}
+.contact-us input[type="text"] , .contact-us textarea {
+    color:#fff;
+    border:0;
+    background:rgba(82,78,78,1)
+}
+/* end contact us */
+
+/* start clients  */
+.clients{background-color:#ddd;padding-top:40px;padding-bottom:40px}
+.clients .h1{margin-bottom:40px;}                                                 
+.clients li {margin-bottom:20px}
+.clients li img{
+    width:100%;
+    height:20%;
+    border-radius:20%;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+   -webkit-border:2px solid #ddd;
+   -moz-border:2px solid #ddd;
+   -o-border:2px solid #ddd;
+   border:2px solid #ddd;
+   opacity: .4
+}
+.clients li:hover img{
+  -webkit-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  transform: scale(1.1);
+  opacity: 1
+}
+/*  End clients */
+
+/* start footer */
+footer{
+    padding-top:50px;
+    padding-bottom:5px;
+    color:#AAA;
+    background-color:#333
+}
+footer h3{margin-bottom:20px}
+footer ul:first-of-type{overflow:hidden}
+footer ul:first-of-type li{float:left;width:33.333%;margin-bottom:40px;}
+footer ul:last-of-type{overflow:hidden;margin-left:-16px}
+footer ul:last-of-type li{
+    float:left;
+    width:16%;
+    margin-left:5px;
+    opacity:.5;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+footer ul:last-of-type li:hover{opacity:1}
+footer ul:last-of-type li img{width:100%}
+footer .media a{width:30%}
+footer .media a img{width:100%}
+footer .media .media-body {width:70%}
+footer .media .media-body h3{margin-botto:20px}
+footer .our-work h3 {margin-bottom:20px}
+footer .our-work div {
+    float:left;
+    width:40%;
+    margin-left:5px; 
+    margin-bottom:5px
+}
+footer .our-work div img{width:100%;height:14%;}
+footer .our-work .img-thumbnail{background-color:#333;padding:0;}
+footer .copyright{
+background-color:#555;padding:10px;margin-top:20px}
+footer .copyright span{color:#ddd;font-size:20px;}
+/* end footer */
+
+/* star loading section */
+.loading-page{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #222;
+    z-index:99999
+}
+.spinner {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: 400px auto;
+}
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #999;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+.double-bounce2{-webkit-animation-delay: -1.0s;animation-delay: -1.0s}
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/* start  scroll */
+.top-scroll{
+    position: fixed;
+    top:870px;
+    left:1216px;
+    z-index: 99999;
+    padding:3px;
+    background-color:#888
+}
+ /* End scroll */
+/* End  loading section */
+/* Start media Query */ /* ممكن تعملها ملف مخصوص ليها بس تعمله تحت ملف السى اس اس الاصلى */
+/* المديا كويرى سهله ودى عشان الريسبونسف وعشان حاجات تانيه زى مثلا انا عايزالخط فى الشاشه دى يبقى كذا اول الغلى الحاجه دى فى الشاشه كذا او اى حاجه انت عايزها */
+/* for xs screen (phone and tablet) 
+@media(max-width:767px)  /* معناها فى الشاشات   xs(phone and tablet)  اعملى الفوت بتاع الخط اتش ون 100 بيكسيل  يعنى من اول صفر لحد 767 بيكسيل اعملى كذا يعنى اخرك 767بيكسيل دى معنى الماكس ويدث والمينيمم عكسها 
+{  
+    h1
+    {
+     font-size:100px    
+    }
+}
+    
+    
+    /* for small screen 
+    
+@media(min-width:768px) and (max-width:991px)  /* معناها فى من اول 768 لحد 991 اعملى كذا يعنى اولك 768 واخرك 991 
+{
+
+    h1
+    {
+        font-size:300px
+    }
+}
+
+
+/* for medium screen 
+
+@media(min-width:992px) and (max-width:1199px)  /* من اول 992 لحد 1199 اعمل كذا  
+{
+    h1
+    {
+        font-size:700px
+    }
+}
+
+
+@media(min-width:1200px) /* يعنى من اول 1200 بيكسيل وانت طالع اعمل كذا ملكش دعوه باللى اقل من 1200 
+{
+    h1
+    {
+        font-size:1000px
+    }
+}
+    */
+/* End media query */
